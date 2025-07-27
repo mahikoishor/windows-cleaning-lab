@@ -1,0 +1,14 @@
+[package]
+name = "windows-cleaning-lab"
+version = "0.1.0"
+description = "A fast, modular, and community-driven **Windows cleaner tool** written in **Rust**. `windows-cleaning-lab` allows you to clean up unnecessary files and system clutter from your Windows machine with speed and precision."
+authors = ["mahikoishor <mahikoishor@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/mahikoishor/windows-cleaning-lab"
+keywords = ["windows", "cleaner", "system-cleaner", "cleanup-tool", "windows-utility", "windows-performance"]
+readme = "README.md"
+include = ["src/**", "README.md", "Cargo.toml"]
+license = "GPL-2.0"
+
+[dependencies]
+is_elevated = "0.1"
